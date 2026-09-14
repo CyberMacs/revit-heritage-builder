@@ -25,5 +25,5 @@ A kész telepítőcsomagban nincsenek Autodesk DLL-ek.
 
 1. Telepítés tesztelése tiszta Revit 2025 meneten.
 2. Nyilvános GitHub feltöltés MIT licenccel.
-3. Git tároló létrehozása, kiadás feltöltése és szükség szerint GitHub Release készítése.
+3. GitHub repository elkészült: https://github.com/CyberMacs/revit-heritage-builder. A kiadási ZIP GitHub Release-be töltése szükség szerint külön lépés.
 

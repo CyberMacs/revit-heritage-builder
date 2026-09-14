@@ -10,5 +10,5 @@ A csomag Revit 2025 API-val lefordult, 0 figyelmeztetéssel és 0 hibával. Lét
 
 A régi generátor Revit 2025-ös futása korábban ellenőrzött volt. Az új szalagos v0.1.0 wrapper futtatását tiszta Revit 2025 meneten a kiadás előtt még külön ellenőrizni kell. Emiatt a jelenlegi csomag előzetes kiadásnak tekintendő.
 
-GitHub hitelesítés elérhető, de a távoli tárhely létrehozása előtt a tulajdonosnak döntenie kell a láthatóságról és a licencről.
+A tulajdonos Public láthatóságot és MIT licencet választott. A GitHub repository létrejött, a main ág feltöltése sikeres: https://github.com/CyberMacs/revit-heritage-builder. A telepítő ZIP jelenleg a helyi Final mappában van; GitHub Release feltöltése külön kiadási döntés lehet.
 
