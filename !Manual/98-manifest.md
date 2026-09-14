@@ -24,6 +24,6 @@ A kész telepítőcsomagban nincsenek Autodesk DLL-ek.
 ## Következő lépések
 
 1. Telepítés tesztelése tiszta Revit 2025 meneten.
-2. GitHub láthatóság és licenc kiválasztása.
+2. Nyilvános GitHub feltöltés MIT licenccel.
 3. Git tároló létrehozása, kiadás feltöltése és szükség szerint GitHub Release készítése.
 

@@ -46,5 +46,5 @@ Set REVIT2025_API to C:\Program Files\Autodesk\Revit 2025, then run dotnet build
 
 The add-in targets Revit 2025. It intentionally creates the supplied Ayse Mayda sample, rather than converting arbitrary photographs into a building. It uses simplified Revit materials; it does not reproduce the earlier Blender PBR shader network exactly.
 
-No license has been selected yet. Do not redistribute this source as open source until the repository owner adds a license.
+Licensed under the MIT License. See LICENSE.
 

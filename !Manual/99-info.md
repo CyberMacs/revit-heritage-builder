@@ -4,5 +4,5 @@ A bővítmény csak Revit 2025-höz készült. Nem módosít megnyitott projekte
 
 A csomag eredeti, saját fejlesztésű RFA-családokat és fotóalapú geometriai adatokat tartalmaz. Autodesk Revit DLL-eket nem tartalmaz; ezeket a telepített Revit biztosítja.
 
-GitHubra a forrás és a kiadási ZIP is feltehető, de a nyilvános közzététel előtt licencet kell választani. A licencet a tulajdonos döntése alapján szabad csak hozzáadni.
+GitHubon a forrás MIT licenc alatt jelenik meg. Ez lehetővé teszi a használatot, másolást, módosítást és megosztást a licencfeltételek megtartásával.
 

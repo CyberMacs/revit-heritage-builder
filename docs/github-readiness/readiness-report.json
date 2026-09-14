@@ -1,13 +1,13 @@
 {
   "project": "D:\\Ai Apps\\ChatGPT Codex\\CAD\\2026-09-14-revit-plugin-heritage-builder",
-  "generated_at": "2026-09-14T18:25:37+03:00",
-  "is_git_repo": false,
-  "branch": null,
+  "generated_at": "2026-09-14T18:30:06+03:00",
+  "is_git_repo": true,
+  "branch": "main",
   "remotes": [],
   "detected_stack": [
     ".NET"
   ],
-  "files_scanned": 83,
+  "files_scanned": 92,
   "findings": [
     {
       "severity": "WARN",
@@ -26,6 +26,7 @@
   ],
   "notes": [
     "Regex and filename checks are heuristic; contextual privacy/security review is still required.",
-    "Current-file secret scan does not prove that Git history is free of hardcoded secrets."
+    "Current-file secret scan does not prove that Git history is free of hardcoded secrets.",
+    "Git working tree/status is not empty; review intended changes before staging."
   ]
 }
