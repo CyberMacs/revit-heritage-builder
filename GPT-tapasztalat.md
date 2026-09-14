@@ -12,3 +12,5 @@ A csomagolás tartalmaz telepítő scriptet, de a Revitben megjelenő szalag és
 
 GitHub feltöltéshez a pi-technika-github-uploader skill releváns: doktor-scan, .gitignore, dokumentáció, helyi commit, majd láthatóság/licenc döntés és csak utána remote létrehozás. A GitHub CLI hitelesítve volt, de tokent nem szabad forrásba, naplóba vagy válaszba írni.
 
+
+Portable csomag: a Package.ps1 eredetileg nem másolta a LICENSE fájlt, ezért ezt hozzá kellett adni, majd újraépíteni. A Final/Portable a kész buildből készült, így a DLL, a Resources és a telepítési manifest egy verzióból származik. A telepítő és eltávolító PowerShell-parser ellenőrzése hibamentes volt. A SHA-256 fájl a Portable tartalmát védi átvitelkor; a checksum fájl maga szándékosan nincs önmagába beleírva.

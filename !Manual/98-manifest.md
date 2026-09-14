@@ -4,7 +4,9 @@
 
 - src/RevitHeritageBuilder: C# Revit 2025 add-in forrása és csomagolt RFA-családai.
 - installer: telepítő, eltávolító, manifest-sablon és csomagoló script.
-- dist/RevitHeritageBuilder-v0.1.0.zip: megosztható telepítőcsomag.
+- dist/RevitHeritageBuilder-v0.1.0.zip: fejlesztői kiadási csomag.
+- Final/Portable: továbbadható, kézi telepítéshez is használható hordozható csomag.
+- Final/RevitHeritageBuilder-Portable-v0.1.0.zip: a Portable mappa ZIP-változata.
 - README.md, INSTALL.md, CHANGELOG.md, SECURITY.md: angol GitHub dokumentáció.
 - docs: fejlesztői és kiadási ellenőrző lista.
 - !Manual: magyar útmutatók.

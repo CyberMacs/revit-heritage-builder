@@ -12,3 +12,5 @@ A régi generátor Revit 2025-ös futása korábban ellenőrzött volt. Az új s
 
 A tulajdonos Public láthatóságot és MIT licencet választott. A GitHub repository létrejött, a main ág feltöltése sikeres: https://github.com/CyberMacs/revit-heritage-builder. A telepítő ZIP jelenleg a helyi Final mappában van; GitHub Release feltöltése külön kiadási döntés lehet.
 
+
+A későbbi kérésre elkészült a Final/Portable hordozható mappa is. Tartalmazza a DLL-t, Resources mappát, telepítőt, eltávolítót, magyar kézi telepítési leírást, MIT licencet és SHA-256 ellenőrzőösszegeket. A Final/RevitHeritageBuilder-Portable-v0.1.0.zip ugyanennek továbbadható ZIP-változata.

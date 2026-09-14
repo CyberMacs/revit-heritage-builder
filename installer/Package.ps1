@@ -24,6 +24,7 @@ Copy-Item (Join-Path $PSScriptRoot "Install-CurrentUser.ps1") $dist
 Copy-Item (Join-Path $PSScriptRoot "Uninstall-CurrentUser.ps1") $dist
 Copy-Item (Join-Path $projectRoot "README.md") $dist
 Copy-Item (Join-Path $projectRoot "INSTALL.md") $dist
+Copy-Item (Join-Path $projectRoot "LICENSE") $dist
 
 Remove-Item -LiteralPath $zip -Force -ErrorAction SilentlyContinue
 Compress-Archive -Path (Join-Path $dist "*") -DestinationPath $zip
