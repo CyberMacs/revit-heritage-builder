@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<RevitAddIns>
+  <AddIn Type="Application">
+    <Name>Revit Heritage Builder</Name>
+    <Assembly>__ASSEMBLY_PATH__</Assembly>
+    <AddInId>4F0C371C-EE9E-405A-936B-FB34D5BF6D6E</AddInId>
+    <FullClassName>RevitHeritageBuilder.RevitHeritageApplication</FullClassName>
+    <VendorId>CYBM</VendorId>
+    <VendorDescription>CyberMacs</VendorDescription>
+  </AddIn>
+</RevitAddIns>
+

@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+    <AssemblyName>RevitHeritageBuilder</AssemblyName>
+    <RootNamespace>RevitHeritageBuilder</RootNamespace>
+    <Version>0.1.0</Version>
+    <Authors>CyberMacs</Authors>
+    <Description>Revit 2025 native BIM sample generator for the Ayse Mayda house.</Description>
+    <RevitApiPath Condition="'$(REVIT2025_API)' == ''">C:\Program Files\Autodesk\Revit 2025</RevitApiPath>
+    <RevitApiPath Condition="'$(REVIT2025_API)' != ''">$(REVIT2025_API)</RevitApiPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="RevitAPI">
+      <HintPath>$(RevitApiPath)\RevitAPI.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="RevitAPIUI">
+      <HintPath>$(RevitApiPath)\RevitAPIUI.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\**\*">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+</Project>
+
